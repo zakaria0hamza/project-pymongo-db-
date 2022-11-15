@@ -15,7 +15,7 @@ class DataBase :
 
 
     def insertData(self,id,work,prise,domain,nameStage):
-        self.id = id
+        self.id = id                               
         self.prise = prise
         self.work = work
         self.domain = domain
@@ -29,7 +29,7 @@ class DataBase :
         }
 
         self.collectionsDataBase.insert_one(data)
-
+ 
 
 
     def delete(self,id):
